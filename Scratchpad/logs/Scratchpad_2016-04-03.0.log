@@ -1,0 +1,200 @@
+03-04-2016@00:49:27.823 INFO  com.logwrapper.Starter - Scratchpad started
+03-04-2016@00:49:27.844 INFO  com.workflow.impl.ImageProcessor - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.ImageProcessor - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.ImageProcessor - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.ImageProcessor - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.steps.ReadSizeStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@00:49:27.846 INFO  com.workflow.impl.ImageProcessor - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@17:53:20.094 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@17:53:20.099 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@17:53:20.100 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@17:53:20.104 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@17:53:20.107 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@17:53:20.108 INFO  com.workflow.impl.steps.ReadSizeStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@17:56:33.370 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@17:56:33.377 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@17:56:33.377 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@17:56:33.378 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@17:56:33.378 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@17:56:33.379 INFO  com.workflow.impl.steps.ReadSizeStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@17:56:33.379 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@17:56:49.163 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@17:56:49.184 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@17:56:49.184 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@17:56:49.184 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@17:56:49.185 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@17:56:49.186 INFO  com.workflow.impl.steps.ReadSizeStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@17:56:49.186 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@18:06:19.945 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@18:06:19.950 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@18:06:19.950 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@18:06:19.950 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@18:06:19.950 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@18:06:19.951 INFO  com.workflow.impl.steps.ReadSizeStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@18:06:19.951 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@18:25:50.116 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@18:25:50.120 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@18:25:50.128 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@18:25:50.130 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@18:25:50.130 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@18:25:50.131 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@18:25:50.131 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@18:25:50.131 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@18:25:50.131 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@18:25:50.131 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:00:10.229 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:00:10.232 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=1, name=com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@19:00:10.237 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency to finish.
+03-04-2016@19:00:10.238 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@19:00:10.238 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:00:10.238 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@19:00:10.238 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[order=0, name=com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:00:50.063 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:00:50.066 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@19:00:50.067 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency to finish.
+03-04-2016@19:00:50.068 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@19:00:50.068 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:00:50.068 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@19:00:50.068 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:02:11.557 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:02:11.559 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency to finish.
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:02:11.564 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@19:02:11.565 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:02:54.406 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:02:54.409 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:02:54.417 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@19:02:54.418 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:02:54.418 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:02:54.418 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:02:54.419 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@19:02:54.419 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:02:54.419 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@19:02:54.420 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:04:31.258 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:04:31.264 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:04:31.267 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] end
+03-04-2016@19:04:31.267 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:04:31.267 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:04:31.267 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:04:31.268 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] end
+03-04-2016@19:04:31.268 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency to finish.
+03-04-2016@19:04:35.268 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@19:04:35.268 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:04:35.269 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@19:04:35.269 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] end
+03-04-2016@19:05:51.174 INFO  com.workflow.impl.BaseProcessor$1 - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@19:05:51.177 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@19:05:51.182 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@19:05:51.182 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@19:05:51.182 INFO  com.workflow.impl.steps.ReadExtensionStep - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@19:05:51.182 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency to finish.
+03-04-2016@19:05:55.182 INFO  com.workflow.impl.steps.ReadExtensionStep - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@19:05:55.183 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@19:05:55.183 INFO  com.workflow.impl.BaseProcessor$1 - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@19:05:55.183 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@20:00:23.714 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@20:00:23.719 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@20:00:23.725 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@20:00:23.726 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@20:00:23.726 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency[class com.workflow.impl.steps.ReadExtensionStep] to finish.
+03-04-2016@20:00:23.726 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@20:00:27.728 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@20:00:27.728 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@20:00:27.728 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@20:00:27.729 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@20:03:01.790 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@20:03:01.793 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Step[com.workflow.impl.steps.ReadSizeStep] finished
+03-04-2016@20:03:01.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency[class com.workflow.impl.steps.ReadExtensionStep] to finish.
+03-04-2016@20:03:05.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@20:03:05.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@20:03:05.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@20:03:05.797 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@20:03:05.798 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@20:03:05.798 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Step[com.workflow.impl.steps.CopyImageStep] finished
+03-04-2016@22:11:37.053 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@22:11:37.057 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@22:11:37.060 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@22:11:37.061 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@22:11:37.061 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@22:11:37.061 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@22:11:37.061 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Step[com.workflow.impl.steps.ReadSizeStep] finished
+03-04-2016@22:11:37.061 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency[class com.workflow.impl.steps.ReadExtensionStep] to finish.
+03-04-2016@22:11:41.062 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@22:11:41.062 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@22:11:41.062 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@22:11:41.062 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@22:11:41.063 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@22:11:41.063 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$1 - Step[com.workflow.impl.steps.CopyImageStep] finished
+03-04-2016@23:25:59.890 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@23:25:59.893 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@23:25:59.898 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@23:25:59.899 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@23:25:59.899 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:25:59.899 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:25:59.899 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadSizeStep] finished
+03-04-2016@23:25:59.899 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@23:25:59.900 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ValidateStep] start
+03-04-2016@23:25:59.900 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:25:59.900 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:25:59.901 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ValidateStep] finished
+03-04-2016@23:26:03.900 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@23:26:15.192 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@23:26:15.195 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadSizeStep] finished
+03-04-2016@23:26:15.200 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@23:26:15.201 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency[class com.workflow.impl.steps.ReadExtensionStep] to finish.
+03-04-2016@23:26:19.201 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@23:26:19.201 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@23:26:19.201 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.CopyImageStep] finished
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ValidateStep] start
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:26:19.202 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ValidateStep] finished
+03-04-2016@23:27:03.707 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+03-04-2016@23:27:03.710 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadExtensionStep] start
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ReadSizeStep] start
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadExtensionStep]
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ReadSizeStep]
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadSizeStep] finished
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] start
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable - Operation[exportImage], Step[com.workflow.impl.steps.ValidateStep] start
+03-04-2016@23:27:03.711 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] waiting dependency[class com.workflow.impl.steps.ReadExtensionStep] to finish.
+03-04-2016@23:27:03.712 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:27:03.712 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.ValidateStep]
+03-04-2016@23:27:03.712 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ValidateStep] finished
+03-04-2016@23:27:07.712 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.ReadExtensionStep] finished
+03-04-2016@23:27:07.712 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Operation[exportImage], Step[com.workflow.impl.steps.CopyImageStep] dependency finished.
+03-04-2016@23:27:07.712 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@23:27:07.713 INFO  com.workflow.impl.steps.BaseStep - Executing Step[com.workflow.impl.steps.CopyImageStep]
+03-04-2016@23:27:07.713 INFO  com.workflow.impl.BaseProcessor$OperationRunnable$StepRunnable - Step[com.workflow.impl.steps.CopyImageStep] finished
