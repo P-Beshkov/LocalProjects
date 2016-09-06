@@ -1,8 +1,8 @@
-package structural.compositepattern;
+package structural.composite;
 
 public class TestCompositePattern {
 
-	public static void main(String[] args) {
+	public static void Test() {
 		HtmlTag parentTag = new HtmlParentElement("<html>");
 		parentTag.setStartTag("<html>");
 		parentTag.setEndTag("</html>");

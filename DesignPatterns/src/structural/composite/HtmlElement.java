@@ -1,4 +1,4 @@
-package structural.compositepattern;
+package structural.composite;
 
 public class HtmlElement extends HtmlTag{
 

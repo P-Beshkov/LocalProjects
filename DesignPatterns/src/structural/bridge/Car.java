@@ -1,4 +1,4 @@
-package structural.bridgepattern;
+package structural.bridge;
 
 public abstract class Car {
 
