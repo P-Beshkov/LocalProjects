@@ -1,0 +1,662 @@
+05-04-2016@13:45:53.464 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@13:45:53.470 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@13:45:53.471 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@13:45:53.492 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@13:45:53.495 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@13:45:53.495 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@13:45:53.495 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@13:45:53.495 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@13:45:53.495 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@13:45:53.496 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@13:45:53.502 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@13:45:53.502 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@13:45:53.502 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@13:45:57.495 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@13:45:57.495 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@13:45:57.495 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@13:45:57.496 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@13:45:57.496 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@13:45:57.496 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@17:39:23.649 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@17:39:23.654 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@17:39:23.658 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@17:39:23.659 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@17:39:23.660 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@17:39:23.660 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@17:39:23.660 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@17:39:27.660 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@17:39:27.660 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@17:39:27.660 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@17:39:27.661 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@17:39:27.661 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@17:39:27.661 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@18:02:20.998 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@18:10:01.157 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@18:57:11.246 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@18:57:11.250 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@18:57:11.255 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@18:57:11.255 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@18:57:11.255 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@18:57:11.255 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:11.256 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@18:57:15.256 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@18:57:15.256 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@18:57:15.256 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@18:57:15.256 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:15.257 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@18:57:15.257 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@18:57:50.291 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@18:57:54.709 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@18:57:54.719 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@18:57:54.720 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@18:57:54.736 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@18:57:54.737 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@18:57:54.737 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:54.737 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@18:57:54.737 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@18:57:54.738 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@18:57:54.738 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@18:57:54.738 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:54.738 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@18:57:54.753 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@18:57:58.738 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@18:57:58.738 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@18:57:58.738 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@18:57:58.739 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@18:57:58.739 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@18:57:58.739 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@18:58:47.846 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@19:00:03.131 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:00:03.135 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:00:03.136 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@19:00:03.137 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@19:00:03.138 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@19:00:03.138 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:00:03.138 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@19:00:07.139 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@19:00:07.139 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@19:00:07.139 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@19:00:07.140 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:00:07.140 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@19:00:07.140 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@19:00:07.427 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@19:00:51.575 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@19:16:03.950 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@19:16:57.336 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@19:18:53.866 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 17:39:23 EEST 2016
+05-04-2016@19:19:25.402 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 18:57:54 EEST 2016
+05-04-2016@19:19:25.404 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 18:57:54 EEST 2016, duration=4002, depDuration=0]
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 18:57:54 EEST 2016, duration=0, depDuration=0]
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 18:57:54 EEST 2016, duration=0, depDuration=0]
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 18:57:54 EEST 2016, duration=3986, depDuration=3985]
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 19:00:03 EEST 2016
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 19:00:03 EEST 2016, duration=1, depDuration=0]
+05-04-2016@19:19:25.405 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 19:00:03 EEST 2016, duration=4003, depDuration=0]
+05-04-2016@19:19:25.406 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 19:00:03 EEST 2016, duration=4003, depDuration=4002]
+05-04-2016@19:19:25.406 INFO  com.logwrapper.LogWrapper - Step[name=null, dateStarted=Tue Apr 05 19:00:03 EEST 2016, duration=0, depDuration=0]
+05-04-2016@19:21:15.997 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:21:16.001 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:21:16.006 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@19:21:16.010 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:21:16.010 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@19:21:16.010 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:21:16.010 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@19:21:16.010 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@19:21:16.011 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@19:21:16.011 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@19:21:16.011 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@19:21:16.011 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:21:16.011 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@19:21:20.011 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@19:21:20.011 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@19:21:20.011 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@19:21:20.011 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:21:20.011 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@19:21:20.012 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@19:21:20.364 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@19:21:26.626 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 19:21:15 EEST 2016
+05-04-2016@19:22:18.550 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 19:21:15 EEST 2016
+05-04-2016@19:22:46.826 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 19:21:15 EEST 2016
+05-04-2016@19:23:19.808 INFO  com.logwrapper.LogWrapper - Step[name=ReadSize, dateStarted=Tue Apr 05 19:21:16 EEST 2016, duration=4, depDuration=0]
+05-04-2016@19:23:20.759 INFO  com.logwrapper.LogWrapper - Step[name=CopyImage, dateStarted=Tue Apr 05 19:21:16 EEST 2016, duration=4001, depDuration=4000]
+05-04-2016@19:23:21.962 INFO  com.logwrapper.LogWrapper - Step[name=Validate, dateStarted=Tue Apr 05 19:21:16 EEST 2016, duration=0, depDuration=0]
+05-04-2016@19:23:55.165 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:24:08.205 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:24:30.325 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:24:48.635 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:24:48.638 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:24:48.639 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@19:24:48.640 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@19:24:48.641 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@19:24:48.641 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:24:48.641 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@19:24:52.641 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@19:24:52.642 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@19:24:52.642 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@19:24:52.642 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:24:52.642 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@19:24:52.642 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@19:24:53.040 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@19:28:54.192 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:28:54.197 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:28:54.203 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@19:28:54.204 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@19:28:54.205 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:28:54.205 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@19:28:58.204 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@19:28:58.204 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@19:28:58.204 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@19:28:58.205 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:28:58.205 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@19:28:58.205 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@19:28:58.516 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@19:29:04.460 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 19:28:54 EEST 2016
+05-04-2016@19:29:04.464 INFO  com.logwrapper.LogWrapper - Step[name=ReadSize, dateStarted=Tue Apr 05 19:28:54 EEST 2016, duration=0, depDuration=0]
+05-04-2016@19:29:04.464 INFO  com.logwrapper.LogWrapper - Step[name=CopyImage, dateStarted=Tue Apr 05 19:28:54 EEST 2016, duration=4001, depDuration=4000]
+05-04-2016@19:29:04.464 INFO  com.logwrapper.LogWrapper - Step[name=Validate, dateStarted=Tue Apr 05 19:28:54 EEST 2016, duration=1, depDuration=0]
+05-04-2016@19:31:41.570 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@19:31:41.573 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@19:31:41.574 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@19:31:41.576 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@19:31:41.577 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@19:31:41.578 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:31:41.578 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@19:31:41.578 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@19:31:45.578 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@19:31:45.578 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@19:31:45.578 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@19:31:45.579 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@19:31:45.579 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@19:31:45.579 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@19:31:45.870 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:04:11.741 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:04:11.745 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:04:11.746 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:04:11.747 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:11.748 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:04:15.748 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:04:15.748 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:04:15.748 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:04:15.748 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:15.749 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:04:15.749 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:04:16.040 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:04:48.647 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:04:50.145 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:04:50.403 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:04:50.603 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:04:51.111 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:04:51.111 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:51.111 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:04:51.223 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:04:51.414 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:04:51.500 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:04:51.608 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:04:51.608 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:51.608 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:04:54.613 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:04:54.614 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:04:54.614 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:04:54.615 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:04:54.615 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:04:54.615 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:04:55.002 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:04:55.037 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:05:59.220 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:06:06.187 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:06:06.189 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:06:06.190 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:06:06.190 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:06:06.191 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:06:06.191 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:06:06.191 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:06:06.191 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:06:06.191 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:06:06.192 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:06:06.192 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:06:06.193 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:06:10.192 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:06:10.192 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:06:10.192 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:06:10.193 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:06:10.193 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:06:10.193 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:06:10.502 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:06:10.535 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:07:40.619 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:07:40.624 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:07:40.625 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:07:40.627 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:07:40.628 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:07:40.628 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:07:40.628 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:07:44.629 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:07:44.630 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:07:44.630 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:07:44.630 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:07:44.630 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:07:44.630 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:07:44.981 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:07:45.050 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:08:11.638 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:08:11.643 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:08:11.645 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:08:11.650 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:08:11.652 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:08:11.653 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:08:11.653 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:08:11.653 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:08:11.654 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:08:11.656 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:08:11.657 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:08:11.658 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:08:11.658 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:08:15.651 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:08:15.651 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:08:15.651 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:08:15.652 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:08:15.652 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:08:15.652 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:08:25.642 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:08:25.729 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:10:32.657 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:10:32.663 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:10:32.664 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:10:32.666 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:10:32.667 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:10:32.667 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:10:32.667 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:10:32.667 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:10:32.667 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:10:32.669 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:10:32.669 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:10:32.669 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:10:32.670 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:10:36.667 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:10:36.667 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:10:36.668 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:10:36.668 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:10:36.668 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:10:36.668 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:10:47.647 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:10:47.739 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:12:20.565 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:12:20.573 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:12:20.575 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:12:20.577 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:12:20.577 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:12:20.577 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:20.578 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:12:20.578 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:12:20.578 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:12:20.578 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:12:20.579 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:12:20.579 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:20.579 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:12:24.582 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:12:24.583 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:12:24.583 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:12:24.583 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:24.584 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:12:24.584 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:12:24.934 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:12:24.969 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:12:37.368 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:12:37.373 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:12:37.374 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:12:37.375 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:12:37.376 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:12:37.377 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:12:37.378 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:37.378 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:12:41.376 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:12:41.376 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:12:41.376 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:12:41.376 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:12:41.377 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:12:41.377 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:12:41.709 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:12:41.746 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:14:17.779 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:14:17.784 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:14:17.785 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:14:17.786 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:14:17.786 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:14:17.786 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:17.787 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:14:21.787 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:14:21.788 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:14:21.788 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:14:21.788 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:21.788 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:14:21.788 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:14:22.183 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:14:22.223 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:14:50.695 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:14:50.703 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:14:50.704 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:14:50.708 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:14:50.709 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:14:50.709 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:50.710 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:14:50.710 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:14:50.710 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:14:50.714 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:14:50.715 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:14:50.717 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:50.717 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:14:54.710 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:14:54.710 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:14:54.710 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:14:54.710 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:14:54.711 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:14:54.711 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:14:55.052 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:15:42.046 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:16:24.570 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:16:24.573 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:16:24.579 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:16:24.583 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:16:24.583 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:16:24.583 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:16:24.583 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:16:24.584 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:16:28.584 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:16:28.584 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:16:28.584 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:16:28.585 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:16:28.585 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:16:28.585 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:16:28.897 INFO  com.logwrapper.LogWrapper - Saving execution
+05-04-2016@20:16:28.926 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:17:11.870 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=Tue Apr 05 20:16:24 EEST 2016
+05-04-2016@20:17:11.875 INFO  com.logwrapper.LogWrapper - Step[name=ReadSize, dateStarted=Tue Apr 05 20:16:24 EEST 2016, duration=4, depDuration=0]
+05-04-2016@20:17:11.875 INFO  com.logwrapper.LogWrapper - Step[name=CopyImage, dateStarted=Tue Apr 05 20:16:24 EEST 2016, duration=4001, depDuration=4000]
+05-04-2016@20:17:11.875 INFO  com.logwrapper.LogWrapper - Step[name=Validate, dateStarted=Tue Apr 05 20:16:24 EEST 2016, duration=1, depDuration=0]
+05-04-2016@20:21:04.560 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:21:04.565 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:21:04.566 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:21:04.567 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:21:04.567 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:21:04.568 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:21:04.569 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:21:08.567 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:21:08.567 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:21:08.567 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:21:08.568 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:21:08.568 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:21:08.568 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:21:08.924 INFO  com.logwrapper.LogWrapper - Saving execution: [FAILED toString()]
+05-04-2016@20:21:08.957 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:21:58.987 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:21:58.990 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:21:58.994 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:21:58.995 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:21:58.995 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:21:58.995 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:21:58.995 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:21:58.995 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:21:58.996 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:21:58.996 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:21:58.996 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:21:58.996 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:21:58.996 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:22:02.996 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:22:02.996 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:22:02.996 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:22:02.997 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:22:02.997 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:22:02.997 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:22:03.337 INFO  com.logwrapper.LogWrapper - Saving execution: [FAILED toString()]
+05-04-2016@20:22:03.370 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:23:18.785 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:23:18.796 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:23:18.798 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:23:18.800 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:23:18.801 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:23:18.801 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:23:18.802 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:23:18.802 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:23:18.802 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:23:18.802 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:23:18.803 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:23:18.803 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:23:18.804 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:23:22.802 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:23:22.802 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:23:22.802 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:23:22.803 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:23:22.803 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:23:22.803 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:23:23.119 INFO  com.logwrapper.LogWrapper - Saving execution: Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:23 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:23 PM, duration=4,002, depDuration=0]Step[name=ReadSize, dateStarted=4/5/16 8:23 PM, duration=1, depDuration=0]Step[name=CopyImage, dateStarted=4/5/16 8:23 PM, duration=4,001, depDuration=4,000]Step[name=Validate, dateStarted=4/5/16 8:23 PM, duration=2, depDuration=0]
+05-04-2016@20:23:23.150 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:24:12.860 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:24:12.863 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:24:12.864 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:24:12.864 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:24:12.864 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:24:12.865 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:24:12.865 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:24:12.865 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:24:12.865 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:24:12.865 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:24:12.866 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:24:12.866 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:24:12.866 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:24:16.866 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:24:16.866 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:24:16.866 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:24:16.867 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:24:16.867 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:24:16.867 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:24:17.170 INFO  com.logwrapper.LogWrapper - Saving execution: Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:24 PM
+Step null.Step[name=ReadExtension, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:24 PM, duration=0, depDuration=0]
+
+05-04-2016@20:24:17.203 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:24:45.928 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:23 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:23 PM, duration=4,002, depDuration=0]
+Step[name=ReadSize, dateStarted=4/5/16 8:23 PM, duration=1, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:23 PM, duration=4,001, depDuration=4,000]
+Step[name=Validate, dateStarted=4/5/16 8:23 PM, duration=2, depDuration=0]
+
+05-04-2016@20:24:45.932 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:24 PM
+Step null.Step[name=ReadExtension, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:24 PM, duration=0, depDuration=0]
+
+05-04-2016@20:26:08.733 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:23 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:23 PM, duration=4,002, depDuration=0]
+Step[name=ReadSize, dateStarted=4/5/16 8:23 PM, duration=1, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:23 PM, duration=4,001, depDuration=4,000]
+Step[name=Validate, dateStarted=4/5/16 8:23 PM, duration=2, depDuration=0]
+
+05-04-2016@20:26:08.737 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:24 PM
+Step null.
+Step[name=ReadExtension, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:24 PM, duration=0, depDuration=0]
+
+05-04-2016@20:26:54.893 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:23 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:23 PM, duration=4,002, depDuration=0]
+Step[name=ReadSize, dateStarted=4/5/16 8:23 PM, duration=1, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:23 PM, duration=4,001, depDuration=4,000]
+Step[name=Validate, dateStarted=4/5/16 8:23 PM, duration=2, depDuration=0]
+05-04-2016@20:26:54.897 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:24 PM
+Step null.
+Step[name=ReadExtension, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:24 PM, duration=0, depDuration=0]
+05-04-2016@20:36:24.423 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:36:24.437 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:36:24.439 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:36:24.443 ERROR com.workflow.impl.OperationRunnable - 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.workflow.impl.OperationRunnable.run(OperationRunnable.java:86)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.workflow.impl.StepRunnable.run(StepRunnable.java:33)
+	... 5 common frames omitted
+05-04-2016@20:36:24.443 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:36:24.444 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:36:24.445 ERROR com.workflow.impl.OperationRunnable - 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.workflow.impl.OperationRunnable.run(OperationRunnable.java:86)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.workflow.impl.StepRunnable.run(StepRunnable.java:33)
+	... 5 common frames omitted
+05-04-2016@20:36:24.446 ERROR com.workflow.impl.OperationRunnable - 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.workflow.impl.OperationRunnable.run(OperationRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.workflow.impl.StepRunnable.run(StepRunnable.java:33)
+	... 5 common frames omitted
+05-04-2016@20:36:24.446 ERROR com.workflow.impl.OperationRunnable - 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.workflow.impl.OperationRunnable.run(OperationRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at com.workflow.impl.StepRunnable.run(StepRunnable.java:33)
+	... 5 common frames omitted
+05-04-2016@20:36:24.446 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:36:25.210 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:36:47.909 INFO  com.workflow.impl.OperationRunnable - Starting operation[exportImage], with input params: {path=D:\Other\Pictures\Yanet.jpg}
+05-04-2016@20:36:47.913 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadExtension] start
+05-04-2016@20:36:47.918 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[ReadSize] start
+05-04-2016@20:36:47.920 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadExtension]
+05-04-2016@20:36:47.920 INFO  com.workflow.impl.StepRunnable - Executing Step[ReadSize]
+05-04-2016@20:36:47.920 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.StepRunnable - Step[ReadSize] finished
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[CopyImage] start
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage], Step[Validate] start
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.StepRunnable - Executing Step[Validate]
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[ReadExtension] waiting dependency[{}] to finish.
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:36:47.921 INFO  com.workflow.impl.StepRunnable - Step[Validate] finished
+05-04-2016@20:36:51.921 INFO  com.workflow.impl.StepRunnable - Step[ReadExtension] finished
+05-04-2016@20:36:51.922 INFO  com.workflow.impl.StepRunnable - Operation[CopyImage], Step[{}] dependency finished.
+05-04-2016@20:36:51.922 INFO  com.workflow.impl.StepRunnable - Executing Step[CopyImage]
+05-04-2016@20:36:51.922 INFO  com.workflow.impl.steps.BaseStep - Executing Step[null]
+05-04-2016@20:36:51.922 INFO  com.workflow.impl.StepRunnable - Step[CopyImage] finished
+05-04-2016@20:36:51.922 INFO  com.workflow.impl.OperationRunnable - Operation[exportImage] finished
+05-04-2016@20:36:52.471 INFO  com.logwrapper.LogWrapper - Execution saved
+05-04-2016@20:36:59.683 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:23 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:23 PM, duration=4,002, depDuration=0]
+Step[name=ReadSize, dateStarted=4/5/16 8:23 PM, duration=1, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:23 PM, duration=4,001, depDuration=4,000]
+Step[name=Validate, dateStarted=4/5/16 8:23 PM, duration=2, depDuration=0]
+05-04-2016@20:36:59.688 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:24 PM
+Step null.
+Step[name=ReadExtension, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:24 PM, duration=4,002, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:24 PM, duration=0, depDuration=0]
+05-04-2016@20:36:59.688 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:36 PM
+Step[name=null, dateStarted=null, duration=0, depDuration=0]
+Step[name=null, dateStarted=null, duration=0, depDuration=0]
+Step[name=null, dateStarted=null, duration=0, depDuration=0]
+Step[name=null, dateStarted=null, duration=0, depDuration=0]
+05-04-2016@20:36:59.689 INFO  com.logwrapper.LogWrapper - Operation=exportImage, inputParams={path=D:\Other\Pictures\Yanet.jpg}, startDate=4/5/16 8:36 PM
+Step[name=ReadExtension, dateStarted=4/5/16 8:36 PM, duration=4,001, depDuration=0]
+Step[name=ReadSize, dateStarted=4/5/16 8:36 PM, duration=1, depDuration=0]
+Step[name=CopyImage, dateStarted=4/5/16 8:36 PM, duration=4,001, depDuration=4,001]
+Step[name=Validate, dateStarted=4/5/16 8:36 PM, duration=0, depDuration=0]
