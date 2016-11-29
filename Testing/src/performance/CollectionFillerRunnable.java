@@ -6,13 +6,13 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.BiFunction;
 
-public class CollectionFiller<K, V> implements Runnable {
+public class CollectionFillerRunnable<K, V> implements Runnable {
 
 	private Map<K, V> collection;
 	private List<Entry<K, V>> values;
 	private BiFunction<V, V, V> operation;
 
-	public CollectionFiller(Map<K, V> collection, List<Entry<K, V>> values, BiFunction<V, V, V> operation) {
+	public CollectionFillerRunnable(Map<K, V> collection, List<Entry<K, V>> values, BiFunction<V, V, V> operation) {
 		this.collection = collection;
 		this.values = values;
 		this.operation = operation;
@@ -37,7 +37,6 @@ public class CollectionFiller<K, V> implements Runnable {
 	private void performConcurentFill() {
 		ConcurrentHashMap<K, V> concurrentMap = (ConcurrentHashMap) collection;
 		for (Entry<K, V> entry : values) {
-			V value = collection.get(entry.getKey());
 			concurrentMap.merge(entry.getKey(), entry.getValue(), operation);
 		}
 	}
