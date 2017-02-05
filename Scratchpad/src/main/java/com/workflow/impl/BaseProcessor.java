@@ -22,7 +22,6 @@ public class BaseProcessor implements Processor {
 	static final Logger LOG = LoggerFactory.getLogger("Scratchpad");
 	Map<String, List<Supplier<Step>>> operationsSteps;
 	private ExecutorService operationsExecutor = Executors.newCachedThreadPool();
-	private Future<?> operationFuture;
 
 	public BaseProcessor() {
 		operationsSteps = new HashMap<>();
@@ -39,9 +38,8 @@ public class BaseProcessor implements Processor {
 		Context context = new Context();
 		context.inputParams = inputParams;
 		context.stepsInfo = new HashMap<>();
-		context.execution = new Execution();
-		return operationsExecutor.submit(new OperationRunnable(operationName, operationsSteps.get(operationName),
-				context));
+		context.execution = new Execution(operationName);
+		return operationsExecutor.submit(new OperationRunnable(operationsSteps.get(operationName), context));
 	}
 
 	@Override

@@ -29,18 +29,17 @@ class OperationRunnable implements Callable<Execution> {
 
 	static final Logger LOG = LoggerFactory.getLogger("Scratchpad");
 	private static ExecutorService stepsExecutor = Executors.newCachedThreadPool();
-	String operationName;
-	Context context;
-	private List<Supplier<Step>> stepsSupp;
+	private String operationName;
+	private Context context;
+	private List<Supplier<Step>> stepsSuppliers;
 	private Execution execution;
 
-	public OperationRunnable(String name, List<Supplier<Step>> steps, Context context) {
-		this.operationName = name;
+	public OperationRunnable(List<Supplier<Step>> steps, Context context) {
+		this.operationName = context.execution.getOperationName();
 		this.context = context;
-		this.stepsSupp = steps;
+		this.stepsSuppliers = steps;
 		execution = context.execution;
 		execution.setInputParameters(context.inputParams);
-		execution.setOperationName(name);
 		execution.setSteps(new ArrayList<>());
 	}
 
@@ -50,7 +49,7 @@ class OperationRunnable implements Callable<Execution> {
 		execution.setStatus(ExecutionStatus.RUNNING);
 		execution.setTimeStarted(new Date());
 		LOG.info("Starting operation[{}], with input params: {}", operationName, context.inputParams);
-		if (stepsSupp == null) {
+		if (stepsSuppliers == null) {
 			LOG.error("Operation[{}] doesn't have any steps, aborting.", operationName);
 		}
 		Map<String, Future<?>> executingDependencies = new HashMap<>();
@@ -107,20 +106,22 @@ class OperationRunnable implements Callable<Execution> {
 	}
 
 	private boolean validateDependencies(Map<String, List<String>> stepsDependencies, List<Step> steps) {
-		for (int j = 0; j < stepsSupp.size(); j++) {
-			Step step = stepsSupp.get(j).get();
+		for (int j = 0; j < stepsSuppliers.size(); j++) {
+			// Get step instance
+			Step step = stepsSuppliers.get(j).get();
 			steps.add(step);
 			List<String> dependencies = step.getDependencies();
-			if (dependencies == null || dependencies.isEmpty()) {
+			if (dependencies.isEmpty()) {
 				continue;
 			}
-			Set<String> depLeft = new HashSet<>(dependencies);
+			Set<String> dependenciesNotFound = new HashSet<>(dependencies);
 			for (int i = 0; i < j; i++) {
-				depLeft.remove(steps.get(i).getName());
+				dependenciesNotFound.remove(steps.get(i).getName());
 			}
-			if (depLeft.size() != 0) {
+			if (dependenciesNotFound.size() != 0) {
 				// Dependency not available in previous tasks
-				LOG.error("Error in dependency configuration, dependecies[{}] not found in previous steps.", depLeft);
+				LOG.error("Error in dependency configuration, dependecies[{}] not found in previously.",
+						dependenciesNotFound);
 				execution.setStatus(ExecutionStatus.CONFIGURATION_ERROR);
 				return false;
 			}

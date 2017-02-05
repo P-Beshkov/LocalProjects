@@ -39,6 +39,8 @@ class StepRunnable implements Runnable {
 			for (String dependencyName : stepDependencies) {
 				Future<?> depFuture = executingDependencies.get(dependencyName);
 				if (depFuture == null) {
+					// Dependency is not async and was executed, so it doesn't
+					// have future.
 					continue;
 				}
 				BaseProcessor.LOG.info("Operation[{}], Step[{}] waiting dependency[{}] to finish.",

@@ -34,6 +34,10 @@ public class Execution {
 
 	private Exception error;
 
+	public Execution(String operationName) {
+		this.operationName = operationName;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

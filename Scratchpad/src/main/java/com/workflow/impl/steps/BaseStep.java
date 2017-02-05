@@ -1,5 +1,6 @@
 package com.workflow.impl.steps;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -10,6 +11,7 @@ import com.workflow.Step;
 
 public abstract class BaseStep implements Step {
 	protected static final Logger LOG = LoggerFactory.getLogger("Scratchpad");
+	private static final List<String> dependencies = new ArrayList<>();
 	protected boolean abortOperation = false;
 	protected List<Throwable> errors;
 	protected int order;
@@ -27,7 +29,7 @@ public abstract class BaseStep implements Step {
 
 	@Override
 	public List<String> getDependencies() {
-		return null;
+		return dependencies;
 	}
 
 	@Override
