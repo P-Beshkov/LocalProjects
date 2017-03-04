@@ -23,6 +23,7 @@ public class BaseProcessor implements Processor {
 	Map<String, List<Supplier<Step>>> operationsSteps;
 	private ExecutorService operationsExecutor = Executors.newCachedThreadPool();
 	private Future<?> operationFuture;
+	private Context executionContext = new Context();
 
 	public BaseProcessor() {
 		operationsSteps = new HashMap<>();
@@ -40,6 +41,7 @@ public class BaseProcessor implements Processor {
 		context.inputParams = inputParams;
 		context.stepsInfo = new HashMap<>();
 		context.execution = new Execution();
+		context.executionContext = executionContext;
 		return operationsExecutor.submit(new OperationRunnable(operationName, operationsSteps.get(operationName),
 				context));
 	}
@@ -52,6 +54,14 @@ public class BaseProcessor implements Processor {
 	@Override
 	public void addOperation(String operationName, List<Supplier<Step>> steps) {
 		operationsSteps.put(operationName, steps);
+	}
+
+	public Context getExecutionContext() {
+		return executionContext;
+	}
+
+	public void setExecutionContext(Context executionContext) {
+		this.executionContext = executionContext;
 	}
 
 }
