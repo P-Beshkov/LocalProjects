@@ -8,7 +8,7 @@ public class Originator {
 	private String lastUndoSavepoint;
 	CareTaker careTaker;
 
-	public Originator(double x, double y,CareTaker careTaker){
+	public Originator(double x, double y, CareTaker careTaker) {
 		this.x = x;
 		this.y = y;
 
@@ -17,11 +17,11 @@ public class Originator {
 		createSavepoint("INITIAL");
 	}
 
-	public double getX(){
+	public double getX() {
 		return x;
 	}
 
-	public double getY(){
+	public double getY() {
 		return y;
 	}
 
@@ -33,33 +33,33 @@ public class Originator {
 		this.y = y;
 	}
 
-	public void createSavepoint(String savepointName){
+	public void createSavepoint(String savepointName) {
 		careTaker.saveMemento(new Memento(this.x, this.y), savepointName);
 		lastUndoSavepoint = savepointName;
 	}
 
-	public void undo(){
+	public void undo() {
 		setOriginatorState(lastUndoSavepoint);
 	}
 
-	public void undo(String savepointName){
+	public void undo(String savepointName) {
 		setOriginatorState(savepointName);
 	}
 
-	public void undoAll(){
+	public void undoAll() {
 		setOriginatorState("INITIAL");
 		careTaker.clearSavepoints();
 	}
 
-	private void setOriginatorState(String savepointName){
+	private void setOriginatorState(String savepointName) {
 		Memento mem = careTaker.getMemento(savepointName);
 		this.x = mem.getX();
 		this.y = mem.getY();
 	}
 
 	@Override
-	public String toString(){
-		return "X: "+x+", Y: "+y;
+	public String toString() {
+		return "X: " + x + ", Y: " + y;
 	}
 
 }

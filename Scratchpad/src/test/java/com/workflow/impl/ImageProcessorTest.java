@@ -35,6 +35,7 @@ public class ImageProcessorTest {
 
 		Map<String, Object> inputParams = new HashMap<>();
 		inputParams.put("path", "D:\\Other\\Pictures\\Yanet.jpg");
+
 		Future<Execution> future = processor.process(exportImage, inputParams);
 		Execution execution = future.get();
 		System.out.println(execution);
