@@ -5,38 +5,47 @@ import com.atlassian.jira.issue.CustomFieldManager;
 import com.atlassian.jira.issue.fields.CustomField;
 import com.atlassian.jira.plugin.workflow.AbstractWorkflowPluginFactory;
 import com.atlassian.jira.plugin.workflow.WorkflowPluginValidatorFactory;
+import com.atlassian.plugin.spring.scanner.annotation.export.ExportAsDevService;
+import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
 import com.opensymphony.workflow.loader.AbstractDescriptor;
 import com.opensymphony.workflow.loader.ValidatorDescriptor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import javax.inject.Named;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-public class TransitionValidator extends AbstractWorkflowPluginFactory implements WorkflowPluginValidatorFactory {
+@ExportAsDevService
+@Component
+@Named("validatorFactory")
+public class TransitionValidatorFactory extends AbstractWorkflowPluginFactory implements WorkflowPluginValidatorFactory {
 	private static final String FIELD_NAME = "field";
 	private static final String FIELDS = "fields";
 	private static final String NOT_DEFINED = "Not Defined";
 
 	private final CustomFieldManager customFieldManager;
 
-	public TransitionValidator(CustomFieldManager customFieldManager) {
+	@Autowired
+	public TransitionValidatorFactory(@ComponentImport CustomFieldManager customFieldManager) {
 		this.customFieldManager = customFieldManager;
 	}
 
 	@Override
 	protected void getVelocityParamsForEdit(Map<String, Object> velocityParams, AbstractDescriptor descriptor) {
-		velocityParams.put(FIELD_NAME, getFieldName(descriptor));
-		velocityParams.put(FIELDS, getCFFields());
+//		velocityParams.put(FIELD_NAME, getFieldName(descriptor));
+//		velocityParams.put(FIELDS, getCFFields());
 	}
 
 	@Override
 	protected void getVelocityParamsForInput(Map<String, Object> velocityParams) {
-		velocityParams.put(FIELDS, getCFFields());
+//		velocityParams.put(FIELDS, getCFFields());
 	}
 
 	@Override
 	protected void getVelocityParamsForView(Map<String, Object> velocityParams, AbstractDescriptor descriptor) {
-		velocityParams.put(FIELD_NAME, getFieldName(descriptor));
+//		velocityParams.put(FIELD_NAME, getFieldName(descriptor));
 	}
 
 	@SuppressWarnings("unchecked")
