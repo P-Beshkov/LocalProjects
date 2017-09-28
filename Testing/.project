@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>Testing</name>
-	<comment></comment>
+	<comment>Project Testing created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -11,14 +11,15 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-<<<<<<< HEAD
-			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
-=======
 			<name>org.sonarlint.eclipse.core.sonarlintBuilder</name>
->>>>>>> 745a03311c82745299c713790eb21ccbb80b36d9
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+            <name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+            <arguments>
+            </arguments>
+        </buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
