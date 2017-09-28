@@ -11,7 +11,11 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< HEAD
 			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+=======
+			<name>org.sonarlint.eclipse.core.sonarlintBuilder</name>
+>>>>>>> 745a03311c82745299c713790eb21ccbb80b36d9
 			<arguments>
 			</arguments>
 		</buildCommand>
