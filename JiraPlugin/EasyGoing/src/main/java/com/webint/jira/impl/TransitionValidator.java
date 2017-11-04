@@ -1,4 +1,4 @@
-package com.atlassian.tutorial.myPlugin.impl;
+package com.webint.jira.impl;
 
 import com.atlassian.jira.issue.CustomFieldManager;
 import com.atlassian.jira.issue.Issue;
@@ -12,22 +12,19 @@ import java.util.Map;
 
 public class TransitionValidator implements Validator {
 	private final CustomFieldManager customFieldManager;
-
-	private static final String FIELD_NAME = "field";
-
 	public TransitionValidator(CustomFieldManager customFieldManager) {
 		this.customFieldManager = customFieldManager;
 	}
 
 	public void validate(Map transientVars, Map args, PropertySet ps) throws WorkflowException {
 		Issue issue = (Issue) transientVars.get("issue");
-		String field = (String) args.get(FIELD_NAME);
 		Collection<Issue> subTasks = issue.getSubTaskObjects();
 		for (Issue subTask :subTasks) {
 			if(subTask.getEstimate()!=0){
 				throw new InvalidInputException("SubTask: " + subTask + " has remaining estimate");
 			}
 		}
+
 //		CustomField customField = customFieldManager.getCustomFieldObjectByName(field);
 //
 //		if (customField!=null){

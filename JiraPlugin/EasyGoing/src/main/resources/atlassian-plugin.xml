@@ -8,54 +8,50 @@
         <param name="configure.url">/secure/admin/configsla.jspa</param>
     </plugin-info>
 
-    <workflow-validator key="field-validator" name="Field Validator"
-                        class="com.atlassian.tutorial.myPlugin.impl.TransitionValidatorFactory">
-        <description>Field Not Empty Workflow Validator</description>
+    <workflow-validator key="field-validator" name="Sub-tasks remaining Validator"
+                        class="com.webint.jira.impl.TransitionValidatorFactory">
+        <description>Validates that issue has no task with remaining effort</description>
+        <validator-class>com.webint.jira.impl.TransitionValidator</validator-class>
 
-        <validator-class>com.atlassian.tutorial.myPlugin.impl.TransitionValidator</validator-class>
-
-        <resource type="velocity" name="view"
-                  location="templates/com/myPlugin/view-fieldValidator.vm"/>
-        <resource type="velocity" name="input-parameters"
-                  location="templates/com/myPlugin/edit-fieldValidator.vm"/>
-        <resource type="velocity" name="edit-parameters"
-                  location="templates/com/myPlugin/edit-fieldValidator.vm"/>
+        <resource type="velocity" name="view" location="templates/com/myPlugin/view-fieldValidator.vm"/>
+        <!--<resource type="velocity" name="input-parameters" location="templates/com/jiraPlugin/edit-fieldValidator.vm"/>-->
+        <resource type="velocity" name="edit-parameters" location="templates/com/jiraPlugin/edit-fieldValidator.vm"/>
     </workflow-validator>
 
     <!-- add our i18n resource -->
     <resource type="i18n" name="i18n" location="myPlugin"/>
     
     <!-- add our web resources -->
-    <web-resource key="myPlugin-resources" name="myPlugin Web Resources">
+    <web-resource key="jiraPlugin-resources" name="myPlugin Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
         
         <resource type="download" name="myPlugin.css" location="/css/myPlugin.css"/>
         <resource type="download" name="myPlugin.js" location="/js/myPlugin.js"/>
         <resource type="download" name="images/" location="/images"/>
 
-        <context>myPlugin</context>
+        <context>jiraPlugin</context>
     </web-resource>
-    <properties>
-        <property>
-            <key>versionId</key>
-            <name>common.concepts.version</name>
-            <description>report.timetracking.version.description</description>
-            <type>select</type>
-            <values class="com.atlassian.jira.portal.VersionOptionalValuesGenerator"/>
-        </property>
-        <property>
-            <key>sortingOrder</key>
-            <name>report.timetracking.sortingorder</name>
-            <description>report.timetracking.sortingorder.description</description>
-            <type>select</type>
-            <values class="com.atlassian.jira.portal.SortingValuesGenerator"/>
-        </property>
-        <property>
-            <key>completedFilter</key>
-            <name>report.timetracking.filter</name>
-            <description>report.timetracking.filter.description</description>
-            <type>select</type>
-            <values class="com.atlassian.jira.portal.FilterValuesGenerator"/>
-        </property>
-    </properties>
+    <!--<properties>-->
+        <!--<property>-->
+            <!--<key>versionId</key>-->
+            <!--<name>common.concepts.version</name>-->
+            <!--<description>report.timetracking.version.description</description>-->
+            <!--<type>select</type>-->
+            <!--<values class="com.atlassian.jira.portal.VersionOptionalValuesGenerator"/>-->
+        <!--</property>-->
+        <!--<property>-->
+            <!--<key>sortingOrder</key>-->
+            <!--<name>report.timetracking.sortingorder</name>-->
+            <!--<description>report.timetracking.sortingorder.description</description>-->
+            <!--<type>select</type>-->
+            <!--<values class="com.atlassian.jira.portal.SortingValuesGenerator"/>-->
+        <!--</property>-->
+        <!--<property>-->
+            <!--<key>completedFilter</key>-->
+            <!--<name>report.timetracking.filter</name>-->
+            <!--<description>report.timetracking.filter.description</description>-->
+            <!--<type>select</type>-->
+            <!--<values class="com.atlassian.jira.portal.FilterValuesGenerator"/>-->
+        <!--</property>-->
+    <!--</properties>-->
 </atlassian-plugin>

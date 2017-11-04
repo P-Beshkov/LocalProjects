@@ -5,17 +5,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.atlassian.tutorial</groupId>
-    <artifactId>myPlugin</artifactId>
+    <groupId>com.webint.jira</groupId>
+    <artifactId>jiraTools</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <organization>
-        <name>Easy Going</name>
+        <name>Webint</name>
         <url>http://www.example.com/</url>
     </organization>
 
-    <name>myPlugin</name>
-    <description>This is the com.atlassian.tutorial:myPlugin plugin for Atlassian JIRA.</description>
+    <name>webintTools</name>
+    <description>This is the webint tools for Atlassian JIRA.</description>
     <packaging>atlassian-plugin</packaging>
     <dependencies>
         <dependency>

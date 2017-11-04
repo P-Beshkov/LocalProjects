@@ -1,4 +1,4 @@
-package com.atlassian.tutorial.myPlugin.impl;
+package com.webint.jira.impl;
 
 import com.atlassian.core.util.map.EasyMap;
 import com.atlassian.jira.issue.CustomFieldManager;
