@@ -1,0 +1,58 @@
+{
+	"environments": [{
+		"name": "DevBG",
+		"skip": true,
+		"paths": [{
+			"name" : "CU",
+			"path" : "\\\\10.92.192.116\\c$\\WebintCollect\\Crawler\\logs"
+			}, {
+			"name" : "Distributor",
+			"path" : "\\\\10.92.192.102\\c$\\WebintCollect\\Distributor\\logs"
+			}			
+		],		
+		"credentials": {
+			"username" : "admin",
+			"password" : "@dm1n"
+		}		
+	},{
+		"name": "ProbeDev1",
+		"skip": true,
+		"paths": [{
+			"name": "CU",
+			"path": "\\\\10.164.12.83\\f$\\WebintCollect\\Crawler\\logs"
+		}, {
+			"name": "Admin",
+			"path": "\\\\10.164.12.82\\f$\\WebintCollect\\Admin\\wildfly\\standalone\\log"
+		}
+		]
+	},{
+		"name": "Dev4",
+		"paths": [{
+			"name": "Nuxeo",
+			"path": "\\\\10.164.7.105\\c$\\ProgramData\\Nuxeo\\logs"
+			}
+		]
+	},{
+		"name": "Dev3",
+		"skip": true,
+		"paths": [{
+			"name": "CU1",
+			"path": "\\\\10.164.15.60\\d$\\WebintCollect\\Crawler\\logs"
+			}, {
+			"name": "CU1",
+			"path": "\\\\10.164.15.64\\d$\\WebintCollect\\Crawler\\logs"
+			}
+		]
+	}, {
+		"name": "MS Dev7",
+		"skip": true,
+		"paths": [{
+			"name": "CU1",
+			"path": "\\\\10.161.149.100\\d$\\WebintCollect\\Crawler\\logs"
+		}, {
+			"name": "CU2",
+			"path": "\\\\10.161.149.99\\d$\\WebintCollect\\Crawler\\logs"
+		}
+		]
+	}]
+}
